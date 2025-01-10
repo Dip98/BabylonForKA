@@ -8,8 +8,10 @@ First, create a new HTML webpage on KA. Then make a canvas tag between the body 
 <body>
             
 Next, import Babylon.js and BabylonForKA.js with these two lines of code:
+```
 <script src = 'https://cdn.jsdelivr.net/npm/babylonjs@6.23.0/babylon.min.js'></script>  
 <script src = 'https://cdn.jsdelivr.net/gh/Dip98/BabylonForKA/BabylonForKA.js'></script>
+```
 
 Then just create a script tag, and type the following inside! 
 
