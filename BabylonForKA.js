@@ -8,8 +8,9 @@ function setupBabylon(){
         });
         const engine = new BABYLON.Engine(canvas, true);
 }
-const scene = run();
-        
-engine.runRenderLoop(function(){
-        scene.render();
-});
+function runBabylon(){
+        const scene = run();
+        engine.runRenderLoop(function(){
+                scene.render();
+        });
+}
