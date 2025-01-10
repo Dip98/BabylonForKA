@@ -6,7 +6,7 @@ First, create a new HTML webpage on KA. Then make a canvas tag between the body 
 ```
 <body>
             <canvas id = 'renderCanvas'></canvas>
-<body>
+</body>
 ```
             
 Next, import Babylon.js and BabylonForKA.js with these two lines of code:
