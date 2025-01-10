@@ -3,9 +3,11 @@ Sometimes setting up Babylon.js on Khan Academy can be a bit of a hassle, espica
 
 ## Setup Instructions
 First, create a new HTML webpage on KA. Then make a canvas tag between the body tags with an id of "renderCanvas" like so:
+```
 <body>
             <canvas id = 'renderCanvas'></canvas>
 <body>
+```
             
 Next, import Babylon.js and BabylonForKA.js with these two lines of code:
 ```
@@ -14,7 +16,7 @@ Next, import Babylon.js and BabylonForKA.js with these two lines of code:
 ```
 
 Then just create a script tag, and type the following inside! 
-
+```
 setupBabylon();
 function run(){
             const scene = new BABYLON.Scene(engine);
@@ -22,5 +24,6 @@ function run(){
             return scene;
 }
 runBabylon();
+```
 
 And you're good to go! :)
