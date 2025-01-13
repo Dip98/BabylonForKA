@@ -7,10 +7,11 @@ window.addEventListener('DOMContentLoaded', function(){
                 data.preserveDrawingBuffer = true;
                 return HTMLCanvasElement.prototype.getContext.call(canvas, type, data);
         }
-
+});
+function renderBabylon(){
         const engine = new BABYLON.Engine(canvas, true);
         const scene = BabylonForKA.run();
         engine.runRenderLoop(function(){
                 scene.render();
         });
-});
+}
