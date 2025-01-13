@@ -1,7 +1,6 @@
 var BabylonForKA = {
         run: function(){}
 };
-function setupBabylon(){
 window.addEventListener('DOMContentLoaded', function(){
         var canvas = document.getElementById('renderCanvas');
         canvas.getContext = function(type, data) {
@@ -15,4 +14,3 @@ window.addEventListener('DOMContentLoaded', function(){
                 scene.render();
         });
 });
-}
